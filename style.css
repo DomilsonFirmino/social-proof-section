@@ -1,0 +1,26 @@
+:root{
+    --clr-p-vd-magenta: hsl(300 43% 22%);
+    --clr-p-s-pink: hsl(333 80% 67%);
+
+    --clr-n-dg-magenta: hsl(303  10% 53%);
+    --clr-n-lg-magenta: hsl(300 24% 96%);
+    --clr-n-white: hsl(0 0% 100%);
+
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-700: 700;
+
+    --fs-400: 0.9375rem;
+    --fs-500: 1rem;
+    --fs-700: 1.75rem;
+
+    --ff-league-spartan: 'league Spartan',sans-serief;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

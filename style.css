@@ -24,3 +24,88 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main{
+    padding-block: 5em;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 2.3em;
+}
+header h1{
+    color: var(--clr-p-vd-magenta);
+
+    font-weight: var(--fw-700);
+    line-height: 1.2;
+
+    margin-bottom: .8em;
+}
+
+header p{
+    color: var(--clr-n-dg-magenta);
+    font-weight: var(--fw-700);
+}
+.rating{
+    padding: 1em 2em;
+    text-align: center;
+    background-color: var(--clr-n-lg-magenta);
+    border-radius: 10px;
+}
+
+.stars{
+    margin-bottom: .5em;
+}
+
+.rating p{
+    color: var(--clr-p-vd-magenta);
+    font-weight: var(--fw-700);
+}
+.rating + .rating{
+    margin-top: 1em;
+}
+
+.rating:last-child{
+    margin-bottom: 2em;
+}
+
+.card{
+    background-color: var(--clr-p-vd-magenta);
+    color: var(--clr-n-white);
+
+    padding: 2em;
+    font-weight: var(--fw-700);
+
+    border-radius: 10px;
+}
+
+.card__header{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+
+.card__header img{
+    border-radius: 100%;
+    width: 20%;
+    max-width: 4em;
+    overflow: hidden;
+}
+
+.card__header-text p + p{
+    color: var(--clr-p-s-pink);
+    font-weight: var(--fw-500);
+    margin-top: .3em;
+}
+
+.card__body{
+    font-weight: var(--fw-700);
+}
+.card:not(:last-child){
+    margin-bottom: 1em;
+}

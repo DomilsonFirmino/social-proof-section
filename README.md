@@ -10,7 +10,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL: [Huddle landing page with single introductory section challenge on Frontend Mentor](https://domilsonfirmino.github.io/Profile-card-component-main/)
+- Live Site URL: [Social proof section](https://domilsonfirmino.github.io/social-proof-section/)
 
 #### Built with
 
